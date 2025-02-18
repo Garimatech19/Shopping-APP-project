@@ -13,7 +13,11 @@
       "@/utils/*": ["src/utils/*"]
     },
     "esModuleInterop": true,
-    "jsx":"react-jsx"
+    "jsx":"react-jsx",
+     "target": "ESNext",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "skipLibCheck": true
   }
 }
 
